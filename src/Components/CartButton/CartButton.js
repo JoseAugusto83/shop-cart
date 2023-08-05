@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import {AiOutlineShoppingCart} from 'react-icons/ai';
+import { AiOutlineShoppingCart} from 'react-icons/ai';
 import './CartButton.css';
 import AppContext from '../../context/AppContext';
 

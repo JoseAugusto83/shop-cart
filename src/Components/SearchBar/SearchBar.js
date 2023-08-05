@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import './SearchBar.css';
-import {BsSearch} from 'react-icons/bs';
+import { BsSearch } from 'react-icons/bs';
 import AppContext from '../../context/AppContext';
 
 const SearchBar = () => {
