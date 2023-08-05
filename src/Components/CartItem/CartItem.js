@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import './CartItem.css';
+import propTypes from 'prop-types';
 import { BsCartDashFill } from 'react-icons/bs';
 import formatCurrency from '../../utils/formatCurrency';
 import AppContext from '../../context/AppContext';
@@ -31,3 +32,8 @@ const CartItem = ({data, index}) => {
 };
 
 export default CartItem;
+
+CartItem.propTypes = {
+  data: propTypes.any,
+  index: propTypes.any,
+}.isRequired;

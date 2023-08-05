@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import propTypes from 'prop-types';
 import './ProductCard.css';
 import { BsFillCartPlusFill } from 'react-icons/bs';
 import formatCurrency from '../../utils/formatCurrency';
@@ -27,3 +28,8 @@ const ProductCard = ({data}) => {
 };
 
 export default ProductCard;
+
+
+ProductCard.propTypes = {
+  data: propTypes.any,
+}.isRequired;
